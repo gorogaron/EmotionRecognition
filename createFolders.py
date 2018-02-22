@@ -41,3 +41,12 @@ for root, dirs, files in os.walk(os.path.abspath('.') + '/dataset/wav'):
         dstFile = os.path.abspath('.') + '/dataToProcess' + '/' + emotions[key] + '/' + file        
         shutil.copy(srcFile, dstFile)
         print("Copying " + file)
+
+        
+        
+        
+        
+        
+        
+        
+        

@@ -12,7 +12,6 @@ import matplotlib.pyplot as plot
 from scipy.signal import stft
 from scipy.io.wavfile import read as readWav
 
-wavPath = '/usr/share/sounds/ekiga/voicemail.wav'
 fileName = '/home/kenderak/_repos/EmotionRecognition/dataset/wav/03a01Fa.wav'
 freq, data = readWav(fileName)
 
