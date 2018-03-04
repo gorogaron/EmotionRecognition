@@ -3,7 +3,7 @@
 """
 Created on Mon Feb 19 22:23:19 2018
 
-@author: kenderak
+@author: aron, jozsef
 """
 import sys
 import os
@@ -42,7 +42,7 @@ for root, dirs, files in os.walk(os.path.abspath('.') + '/dataset/wav'):
         shutil.copy(srcFile, dstFile)
         print("Copying " + file)
 
-        
+print("Done")
         
         
         
